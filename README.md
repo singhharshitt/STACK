@@ -10,8 +10,9 @@
 
 <br>
 <br>
-
+<h3>SAMPLE PROBLEMS</h3>
 <b>
+Q.1
 Input format :<br>
 The first line of input contains an integer n, representing the number of elements Nandha wants to push onto the stack.<br>
 
