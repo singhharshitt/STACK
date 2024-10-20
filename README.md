@@ -53,6 +53,45 @@ Stack is empty<br>
 Input 3 :<br>
 1<br>
 90<br>
+
+
+<h1>Next Greater Element</h1>
+    <p>John is analyzing the stock market and wants to know the next greater element (NGE) for each stock price in an array. Write a program to help him find the NGE for each element. Implement a stack using an array for this.</p>
+    <h2>Company Tags: Capgemini</h2>
+    <h3>Input format :</h3>
+    <p>The first line of input contains an integer <strong>n</strong>, representing the number of stock prices.<br>
+       The second line contains <strong>n</strong> space-separated integers, representing the stock prices.</p>
+    <h3>Output format :</h3>
+    <p>The output prints each stock price followed by its next greater element (or -1 if there is none).<br>
+       Refer to the sample output for formatting specifications.</p>
+    <h3>Code constraints :</h3>
+    <p>1 ≤ n ≤ 20<br>
+       1 ≤ elements ≤ 100</p>
+    <h3>Sample test cases :</h3>
+    <p><strong>Input 1 :</strong><br>
+       4<br>
+       11 13 21 3<br>
+       <strong>Output 1 :</strong><br>
+       11 13<br>
+       13 21<br>
+       21 -1<br>
+       3 -1</p>
+    <p><strong>Input 2 :</strong><br>
+       4<br>
+       4 5 2 25<br>
+       <strong>Output 2 :</strong><br>
+       4 5<br>
+       5 25<br>
+       2 25<br>
+       25 -1</p>
+    <p><strong>Input 3 :</strong><br>
+       5<br>
+       5 4 3 2 1<br>
+       <strong>Output 3 :</strong><br>
+       5 -1<br>
+       4 -1<br>
+       3 -1<br>
+       2 -1
 Output 3 :<br>
 90 <br>
 Top element is 90<br>
